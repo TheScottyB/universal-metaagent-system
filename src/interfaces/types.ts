@@ -34,6 +34,7 @@ export enum AgentType {
   SPECIALIST = 'specialist',
   REMOTE = 'remote',
   PROXY = 'proxy',
+  EPHEMERAL = 'ephemeral',
 }
 
 // Resource constraint levels

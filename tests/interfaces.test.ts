@@ -95,7 +95,7 @@ describe('Core Interfaces', () => {
     it('should have consistent enum values count', () => {
       expect(Object.keys(AgentState)).toHaveLength(7); // 7 values
       expect(Object.keys(EnvironmentType)).toHaveLength(9); // 9 values
-      expect(Object.keys(AgentType)).toHaveLength(6); // 6 values
+      expect(Object.keys(AgentType)).toHaveLength(7); // 7 values
       expect(Object.keys(ResourceLevel)).toHaveLength(5); // 5 values
       expect(Object.keys(CommunicationProtocol)).toHaveLength(6); // 6 values
       expect(Object.keys(TaskPriority)).toHaveLength(8); // 4 values with reverse mapping
