@@ -11,7 +11,7 @@ import {
   Task,
   TaskResult,
   SystemEvent,
-} from './types.js';
+} from './types';
 
 export interface IAgent extends EventEmitter {
   // Core identification and metadata

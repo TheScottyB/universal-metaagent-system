@@ -1,11 +1,11 @@
 import { EventEmitter } from 'eventemitter3';
-import { IAgent } from '../interfaces/IAgent.js';
+import { IAgent } from '../interfaces/IAgent';
 import {
   AgentState,
   AgentMetadata,
   AgentType,
   EnvironmentType,
-} from '../interfaces/types.js';
+} from '../interfaces/types';
 
 export interface AgentRegistryEntry {
   agent: IAgent;
