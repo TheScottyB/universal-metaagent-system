@@ -1,0 +1,36 @@
+{
+  "name": "universal-metaagent-system",
+  "version": "0.1.0",
+  "description": "A universal metaagent orchestration system that dynamically creates and manages agents based on environmental factors",
+  "type": "module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "engines": {
+    "node": ">=22.18.0"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "start": "node dist/index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.ts",
+    "format": "prettier --write src/**/*.ts",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "metaagent",
+    "agent-orchestration",
+    "openai-agent-sdk",
+    "typescript",
+    "swarm",
+    "dynamic-agents",
+    "ai"
+  ],
+  "author": "ScottyB",
+  "license": "MIT",
+  "packageManager": "pnpm@10.14.0",
+  "volta": {
+    "node": "22.18.0"
+  }
+}
