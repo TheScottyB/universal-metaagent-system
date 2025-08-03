@@ -9,6 +9,8 @@ import {
   Task,
   TaskResult,
 } from '../interfaces/types.js';
+import { LifecycleManager, LifecyclePolicy } from '../lifecycle/LifecycleManager.js';
+import { OpenAISDKIntegration, SDKConfiguration } from '../sdk/OpenAISDKIntegration.js';
 
 export abstract class BaseAgent extends EventEmitter implements IAgent {
   public readonly id: string;
