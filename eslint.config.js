@@ -20,6 +20,12 @@ export default [
         __dirname: 'readonly',
         __filename: 'readonly',
         global: 'readonly',
+        NodeJS: 'readonly',
+        clearInterval: 'readonly',
+        navigator: 'readonly',
+        window: 'readonly',
+        document: 'readonly',
+        screen: 'readonly',
       },
     },
     plugins: {
